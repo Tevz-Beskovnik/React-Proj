@@ -1,7 +1,8 @@
+import { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
